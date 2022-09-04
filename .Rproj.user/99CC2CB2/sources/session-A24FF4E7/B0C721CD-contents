@@ -1,0 +1,7 @@
+renv::init()
+
+
+library(blogdown)
+options(blogdown.publishDir = 'C:/Users/John/Documents/GitHub/jwframe28.github.io')
+build_site()
+serve_site()
